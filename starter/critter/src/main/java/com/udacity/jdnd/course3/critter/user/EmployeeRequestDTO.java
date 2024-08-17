@@ -8,22 +8,22 @@ import java.util.Set;
  * to the database directly.
  */
 public class EmployeeRequestDTO {
-    private Set<EmployeeSkill> skills;
-    private LocalDate date;
+  private Set<EmployeeSkill> skills;
+  private LocalDate date;
 
-    public Set<EmployeeSkill> getSkills() {
-        return skills;
-    }
+  public Set<EmployeeSkill> getSkills() {
+    return skills;
+  }
 
-    public void setSkills(Set<EmployeeSkill> skills) {
-        this.skills = skills;
-    }
+  public void setSkills(Set<EmployeeSkill> skills) {
+    this.skills = skills;
+  }
 
-    public LocalDate getDate() {
-        return date;
-    }
+  public LocalDate getDate() {
+    return date;
+  }
 
-    public void setDate(LocalDate date) {
-        this.date = date;
-    }
+  public void setDate(LocalDate date) {
+    this.date = date;
+  }
 }
